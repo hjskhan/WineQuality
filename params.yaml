@@ -1,10 +1,10 @@
 base:
-  project: wine-quality-project
+  project: winequality-project
   random_state: 42
   target_col: TARGET
 
 data_source:
-  s3_source: data/winequality.csv
+  s3_source: data_given/winequality.csv
   
 load_data:
   raw_dataset_csv: data/raw/winequality.csv
