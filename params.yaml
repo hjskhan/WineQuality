@@ -22,3 +22,7 @@ estimators:
       random_state: 42
 
 model_dir: saved_models
+
+reports:
+  scores: report/scores.json
+  params: report/params.json
